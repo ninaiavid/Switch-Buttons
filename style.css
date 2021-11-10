@@ -1,0 +1,246 @@
+/*Neon palette classes*/
+.theme-neon_bg-1 {
+    background-color: #D705F2;
+}
+.theme-neon_bg-2 {
+    background-color:#A904BF;
+}
+.theme-neon_bg-3 {
+    background-color:#660273;
+}
+.theme-neon_bg-4 {
+    background-color:#380140;
+}
+.theme-neon_bg-5 {
+    background-color: #220126;
+}
+
+/*Plastic palette classes*/
+.theme-plastic_bg-1 {
+    background-color: #F2F2F2;
+}
+.theme-plastic_bg-2 {
+    background-color:#D9D9D9;
+}
+.theme-plastic_bg-3 {
+    background-color:#BFBFBF;
+}
+.theme-plastic_bg-4 {
+    background-color:#737373;
+}
+.theme-plastic_bg-5 {
+    background-color: #404040;
+}
+
+/*Green palette classes*/
+.theme-green_bg-1 {
+    background-color: #96D9C0;
+}
+.theme-green_bg-2 {
+    background-color:#2ABF95;
+}
+.theme-green_bg-3 {
+    background-color:#03A678;
+}
+.theme-green_bg-4 {
+    background-color:#346C73;
+}
+.theme-green_bg-5 {
+    background-color: #324759;
+}
+
+/*Blue palette classes*/
+.theme-blue_bg-1 {
+    background-color: #3DF2F2;
+}
+.theme-blue_bg-2 {
+    background-color:#031D40;
+}
+.theme-blue_bg-3 {
+    background-color:#0468BF;
+}
+.theme-blue_bg-4 {
+    background-color:#2995D9;
+}
+.theme-blue_bg-5 {
+    background-color: #074E8C;
+}
+
+.switch__checkbox {
+    display: none;
+}
+
+.switch_round {
+    display: block;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.switch_square {
+    display: block;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.switch_small {
+    width: 60px;
+    height: 60px;
+    padding: 4px; 
+}
+
+.switch_toggle {
+    width: 130px;
+    height: 90px;
+    padding: 6px;
+    display: block;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.switch_toggle .switch__icon__toggle_on{
+    width: 130px;
+    height: 90px;
+    background-size: 100px
+}
+
+.switch_small .switch__icon__power {
+    width: 60px;
+    height: 60px;
+    background-size: 60px;
+}
+
+.switch_md {
+    width: 90px;
+    height: 90px;
+    padding: 6px; 
+}
+
+.switch_md .switch__icon__radio {
+    width: 90px;
+    height: 90px;
+    background-size: 90px;
+}
+
+.switch_large {
+    width: 120px;
+    height: 120px;
+    padding: 8px; 
+}
+
+.switch_large .switch__icon__checkbox {
+    width: 120px;
+    height: 120px;
+    background-size: 120px;
+}
+
+.switch__icon__power {
+    width: 90px;
+    height: 90px;
+    background-image: url(img/outline_power_settings_new_black_48dp.png);
+    background-position: center;
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+.switch__icon__radio {
+    width: 90px;
+    height: 90px;
+    background-image: url(img/outline_radio_button_checked_black_48dp.png);
+    background-position: center;
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+.switch__icon__checkbox {
+    width: 90px;
+    height: 90px;
+    background-image: url(img/outline_check_box_outline_blank_black_48dp.png);
+    background-position: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.switch__icon__toggle_on {
+    width: 130px;
+    height: 90px;
+    background-image: url(img/outline_toggle_on_black_48dp.png);
+    background-position: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    display: none;
+    background-repeat: no-repeat;
+}
+
+.switch__icon__toggle_off {
+    width: 130px;
+    height: 90px;
+    background-image: url(img/outline_toggle_off_black_48dp.png);
+    background-position: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;    
+}
+
+/*Component theme neon classes*/
+.switch_theme_neon {
+    box-shadow: inset 0 0 3px 0 black;
+}
+.switch_theme_neon .switch__icon__power {
+    background-color:#660273;
+    box-shadow: 0 0 4px 1px black;
+}
+
+.switch_theme_neon .switch__checkbox:checked + .switch__icon__power{
+    background-color: #D705F2;
+    box-shadow: 0 0 4px 1px #660273;
+}
+
+/*Component theme pastic classes*/
+.switch_theme_plastic {
+    box-shadow: inset 0 0 3px 0 black;
+}
+.switch_theme_plastic .switch__icon__radio {
+    background-color:#BFBFBF;
+    box-shadow: 0 0 4px 1px black;
+}
+
+.switch_theme_plastic .switch__checkbox:checked + .switch__icon__radio{
+    background-color: #F2F2F2;
+    box-shadow: 0 0 4px 1px #BFBFBF;
+}
+
+/*Component theme green classes*/
+.switch_theme_green {
+    box-shadow: inset 0 0 3px 0 black;
+}
+.switch_theme_green .switch__icon__checkbox {
+    background-color:#03A678;
+    box-shadow: 0 0 4px 1px black;
+}
+
+.switch_theme_green .switch__checkbox:checked + .switch__icon__checkbox{
+    background-color: #96D9C0;
+    box-shadow: 0 0 4px 1px #03A678;
+}
+
+/*Component theme blue classes*/
+.switch_theme_blue {
+    box-shadow: inset 0 0 3px 0 black;
+}
+.switch_theme_blue .switch__icon__toggle_on {
+    background-color:#3DF2F2;
+    box-shadow: 0 0 4px 1px #3DF2F2;
+}
+
+.switch_theme_blue .switch__icon__toggle_off {
+    background-color:#2995D9;
+    box-shadow: 0 0 4px 1px black;
+}
+
+.switch_theme_blue .switch__checkbox:checked + .switch__icon__toggle_on{
+    display: block;
+}
+
+.switch_theme_blue .switch__checkbox:checked + .switch__icon__toggle_on + .switch__icon__toggle_off{
+    display: none;
+}
