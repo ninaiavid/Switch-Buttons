@@ -66,6 +66,12 @@
     background-color: #074E8C;
 }
 
+.theme {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
 .switch__checkbox {
     display: none;
 }
